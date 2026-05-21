@@ -1,0 +1,174 @@
+body {
+  padding: 70px;
+  font-family: 'Cormorant SC', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hleft {
+  display: flex;
+  align-items: center;
+}
+
+.hlogo {
+  margin-left: 50px;
+  margin-top: 2px;
+  height: 50px;
+}
+
+.hmiddle {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 60px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hright {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: right;
+  margin-right: 50px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobg {
+  height: 550px;
+  width: 700px;;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.herotext {
+  font-family: 'Cormorant SC';
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cta {
+  font-family: 'Cormorant SC';
+  font-weight: 1000;
+  font-size: 20px;
+  text-decoration: solid;
+  background-color: #F4BBC8;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 100px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-bottom: 500px;
+}
+
+.section-label {
+  font-family: 'Cormorant Unicase';
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.work-img {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+}
+
+.work-title {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.work-desc {
+  font-family: 'Cormorant';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  flex-direction: row;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+  border-top: 1px solid #000000;
+}
+
+.flogodiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 55px;
+}
+
+.flogo {
+  height: 100px;
+  width: auto;
+  object-fit: cover;
+}
+
+.copyright {
+  font-family: 'Cormorant';
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.fright {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 0px;
+  gap: 20px;
+}
+
+.igicon {
+  margin-top: 155px;
+  height: 30px;
+  width: auto;
+  object-fit: cover;
+}
+
+.linkedinicon {
+  margin-top: 155px;
+  height: 40px;
+  width: auto;
+  object-fit: cover;
+}
