@@ -18,6 +18,9 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #ffffff;
+  padding: 0 50px;
+  z-index: 100;
 }
 
 .hleft {
@@ -87,7 +90,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin-bottom: 500px;
+  margin-bottom: 80px;
 }
 
 .section-label {
@@ -145,6 +148,7 @@ a {
 }
 
 .copyright {
+  margin-bottom: 0px;
   font-family: 'Cormorant';
   font-weight: 300;
   font-size: 12px;
@@ -160,14 +164,12 @@ a {
 }
 
 .igicon {
-  margin-top: 155px;
   height: 30px;
   width: auto;
   object-fit: cover;
 }
 
 .linkedinicon {
-  margin-top: 155px;
   height: 40px;
   width: auto;
   object-fit: cover;
