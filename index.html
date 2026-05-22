@@ -4,80 +4,104 @@
     <title>AERIE STUDIO</title>
     <link rel="icon" href="pictures/AERIE Favicon 2.png">
     <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="header">
-      <div class="hleft">
-        <img class="hlogo" src="pictures/AERIE Logo 2.png">
-      </div>
-      <div class="hmiddle">
-        <div>
-          <a href="#home">Home</a>
-        </div>
-        <div>
-        <a href="#work">Work</a>
-        </div>
-        <div>
-          <a href="#feedback">Feedback</a>
-        </div>
-      </div>
-      <div class="hright">
-        <div> 
-          <a href="#contact">Contact Me</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="hero">
-      <div class="herotop">
-        <img class="herobg" src="pictures/AERIE Logo.png">
-      </div>
-      <div class="herotagline">
-      <p class="herotext">Web & Graphic Design · Kathmandu</p>
-      </div>
-      <div>
-        <a href="#work" class="cta">View Work</a>
-      </div>
-    </div>
 
-    <div class="work">
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-left">
+        <img class="nav-logo" src="pictures/aerie-navbar-logo-no-bg.png" alt="Aerie Studio">
+      </div>
+      <div class="nav-middle">
+        <a href="#home">Home</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+      </div>
+      <div class="nav-right">
+        <a href="#contact">Contact Me</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <img class="hero-bg" src="Work/v1.png" alt="Vintro project">
+      <div class="hero-content">
+        <div class="hero-logo-block">
+          <span class="hero-aerie">Aerie</span>
+          <span class="hero-dot">·</span>
+          <span class="hero-studio">STUDIO</span>
+        </div>
+        <p class="hero-tagline">Web & Graphic Design · Kathmandu</p>
+        <a href="#work" class="hero-cta">View Work</a>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services fade-in" id="services">
+      <p class="section-label">services</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-num">01</span>
+          <h3 class="service-title">Web Design</h3>
+          <p class="service-desc">Clean, minimal websites designed in Figma and built in code. From landing pages to full brand sites.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-num">02</span>
+          <h3 class="service-title">Graphic Design</h3>
+          <p class="service-desc">Logos, brand identities, social media content and visual assets tailored to your aesthetic.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-num">03</span>
+          <h3 class="service-title">Brand Identity</h3>
+          <p class="service-desc">Colour palettes, typography systems and visual direction that make your brand feel intentional.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work fade-in" id="work">
       <p class="section-label">work</p>
       <div class="work-grid">
         <div class="work-card">
-          <img class="work-img" src="Work/1.png" alt="Vintro Website Redesign">
-          <p class="work-title">Vintro Fashion House</p>
-          <p class="work-desc">Website redesign concept · 2026</p>
+          <div class="work-img-wrap">
+            <img class="work-img" src="Work/1.png" alt="Vintro Website Redesign">
+            <div class="work-hover">
+              <span>Website Redesign</span>
+            </div>
+          </div>
+          <p class="work-title">Vintro</p>
+          <p class="work-desc">Website concept redesign · 2026</p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="footer">
-      <div class="fleftt">
-        <div class="flogodiv">
-          <img class="flogo" src="pictures/AERIE Logo 2.png">
-        </div>
-        <div class="ftextdiv">
-          <p class="copyright">
-          &copy; 2026 AERIE STUDIO. All rights reserved.
-        </p>
-        </div>
+    <!-- CONTACT -->
+    <section class="contact fade-in" id="contact">
+      <p class="section-label">contact</p>
+      <p class="contact-sub">Available for Freelance Work</p>
+      <a href="mailto:aeriexstudio@gmail.com" class="contact-email">aeriexstudio@gmail.com</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-left">
+        <img class="footer-logo" src="pictures/AERIE Logo 2.png" alt="Aerie Studio">
+        <p class="copyright">&copy; 2026 AERIE STUDIO. All rights reserved.</p>
       </div>
-      <div class="fright">
-        <div>
-          <a href="https://www.instagram.com/aeriestudio_/" target="_blank">
-            <img class="igicon" src="pictures/icons/ig.png" alt="Instagram">
-          </a>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/avipsa-parajuli-a31052308/" target="_blank">
-            <img class="linkedinicon" src="pictures/icons/linkedin.png" alt="LinkedIn">
-          </a>
-        </div>
+      <div class="footer-right">
+        <a href="https://www.instagram.com/aeriestudio_/" target="_blank">
+          <img class="social-icon" src="pictures/icons/ig.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/avipsa-parajuli-a31052308/" target="_blank">
+          <img class="social-icon" src="pictures/icons/linkedin.png" alt="LinkedIn">
+        </a>
       </div>
-    </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
-</html> 
+</html>
