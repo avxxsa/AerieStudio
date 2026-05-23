@@ -1,4 +1,3 @@
-// Fade-in on scroll using IntersectionObserver
 const fadeEls = document.querySelectorAll('.fade-in');
 
 const observer = new IntersectionObserver((entries) => {

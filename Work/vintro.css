@@ -1,0 +1,143 @@
+.project-header {
+  padding: 140px 80px 60px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.back-link {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--gray);
+  letter-spacing: 0.05em;
+  display: inline-block;
+  margin-bottom: 32px;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--pink);
+}
+
+.project-title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.project-sub {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.project-tags {
+  display: flex;
+  gap: 12px;
+}
+
+.tag {
+  font-family: var(--font-sc);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  padding: 6px 16px;
+  border: 1px solid #e0e0e0;
+  color: var(--gray);
+}
+
+.project-brief {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 80px 80px;
+  background-color: var(--cream);
+}
+
+.brief-text {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+  margin-top: 16px;
+}
+
+.brief-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.brief-detail {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 16px;
+}
+
+.detail-label {
+  font-family: var(--font-unicase);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  color: var(--gray);
+  margin-bottom: 6px;
+}
+
+.detail-value {
+  font-family: var(--font-sc);
+  font-size: 15px;
+  letter-spacing: 0.05em;
+}
+
+.project-images {
+  padding: 80px 80px;
+}
+
+.images-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 16px;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-caption {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 13px;
+  color: var(--gray);
+  margin-top: 12px;
+  letter-spacing: 0.05em;
+}
+
+.next-project {
+  padding: 60px 80px;
+  background-color: var(--cream);
+  border-top: 1px solid #e8e8e8;
+}
+
+.next-link {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--gray);
+  transition: color 0.2s;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.next-link:hover {
+  color: var(--pink);
+}

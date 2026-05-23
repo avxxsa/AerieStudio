@@ -1,4 +1,3 @@
-/* ── RESET & BASE ── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -32,8 +31,11 @@ a {
   color: inherit;
 }
 
+a.work-card {
+  display: block;
+  color: inherit;
+}
 
-/* ── NAVBAR ── */
 .navbar {
   position: fixed;
   top: 0;
@@ -76,8 +78,6 @@ a {
   color: var(--pink);
 }
 
-
-/* ── HERO ── */
 .hero {
   position: relative;
   width: 100%;
@@ -119,6 +119,7 @@ a {
   flex-direction: column;
   align-items: center;
   line-height: 1;
+  gap: 0px;
 }
 
 .hero-aerie {
@@ -130,11 +131,10 @@ a {
   letter-spacing: 0.25em;
   animation: fadeUp 1s ease both;
   animation-delay: 0.2s;
-  margin-bottom: -20px;
 }
 
 .hero-dot {
-  font-size: 80px;
+  font-size: 70px;
   color: var(--pink);
   line-height: 0.5;
   animation: fadeUp 1s ease both;
@@ -183,8 +183,6 @@ a {
   border-color: var(--pink);
 }
 
-
-/* ── SCROLL ANIMATION ── */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -196,8 +194,6 @@ a {
   transform: translateY(0);
 }
 
-
-/* ── SECTION SHARED ── */
 .services,
 .work,
 .contact {
@@ -214,8 +210,6 @@ a {
   margin-bottom: 48px;
 }
 
-
-/* ── SERVICES ── */
 .services {
   background-color: var(--cream);
 }
@@ -261,8 +255,6 @@ a {
   color: #666;
 }
 
-
-/* ── WORK ── */
 .work-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -326,8 +318,6 @@ a {
   margin-top: 4px;
 }
 
-
-/* ── CONTACT ── */
 .contact {
   background-color: var(--cream);
   display: flex;
@@ -356,8 +346,6 @@ a {
   opacity: 0.7;
 }
 
-
-/* ── FOOTER ── */
 .footer {
   display: flex;
   align-items: center;
@@ -403,8 +391,6 @@ a {
   opacity: 1;
 }
 
-
-/* ── KEYFRAMES ── */
 @keyframes fadeUp {
   from {
     opacity: 0;
