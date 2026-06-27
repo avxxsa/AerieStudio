@@ -4,9 +4,9 @@
 }
 
 .back-link {
-  font-family: var(--font-serif);
+  font-family: var(--font-body);
   font-style: italic;
-  font-size: 14px;
+  font-size: 10px;
   color: var(--gray);
   letter-spacing: 0.05em;
   display: inline-block;
@@ -19,19 +19,18 @@
 }
 
 .project-title {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  font-size: 72px;
-  letter-spacing: 0.05em;
+  font-family: var(--font-body);
+  font-weight: 520;
+  font-size: 50px;
   line-height: 1;
   margin-bottom: 12px;
 }
 
 .project-sub {
-  font-family: var(--font-serif);
+  font-family: var(--font-inter);
   font-style: italic;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
   color: var(--gray);
   margin-bottom: 24px;
 }
@@ -42,12 +41,13 @@
 }
 
 .tag {
-  font-family: var(--font-sc);
-  font-size: 11px;
-  letter-spacing: 0.2em;
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.1em;
   padding: 6px 16px;
-  border: 1px solid #e0e0e0;
   color: var(--gray);
+  border-radius: 100px;
+  background-color: var(--pink-soft);
 }
 
 .project-brief {
@@ -58,10 +58,20 @@
   background-color: var(--cream);
 }
 
+.section-label {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  color: var(--gray);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
 .brief-text {
-  font-family: var(--font-serif);
+  font-family: var(--font-body);
   font-weight: 300;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.8;
   color: #555;
   margin-top: 16px;
@@ -82,7 +92,7 @@
 }
 
 .detail-label {
-  font-family: var(--font-unicase);
+  font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: 0.3em;
   color: var(--gray);
@@ -90,8 +100,8 @@
 }
 
 .detail-value {
-  font-family: var(--font-sc);
-  font-size: 15px;
+  font-family: var(--font-inter);
+  font-size: 14px;
   letter-spacing: 0.05em;
 }
 
@@ -129,9 +139,8 @@
 }
 
 .next-link {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 18px;
+  font-family: var(--font-body);
+  font-size: 11px;
   color: var(--gray);
   transition: color 0.2s;
   display: inline-block;

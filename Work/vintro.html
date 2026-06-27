@@ -7,25 +7,39 @@
     <link rel="stylesheet" href="project.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
 
-    <nav class="navbar">
-      <div class="nav-left">
-        <a href="../index.html">
-          <img class="nav-logo" src="../pictures/aerie-navbar-logo-no-bg.png" alt="Aerie Studio">
-        </a>
+    
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="nav-content">
+          <p class="logo-text"></p>
+
+        <nav class="nav-links">
+          <a href="#work" class="nav-link">Work <sup>01</sup></a>
+          <a href="#services" class="nav-link">Services <sup>02</sup></a>
+          <a href="#about" class="nav-link">About <sup>03</sup></a>
+          <a href="#contact" class="nav-link">Contact <sup>04</sup></a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
       </div>
-      <div class="nav-middle">
-        <a href="../index.html#home">Home</a>
-        <a href="../index.html#work">Work</a>
-        <a href="../index.html#services">Services</a>
-      </div>
-      <div class="nav-right">
-        <a href="../index.html#contact">Contact Me</a>
-      </div>
-    </nav>
+
+      <nav class="mobile-menu" id="mobileMenu">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
 
     <section class="project-header fade-in">
       <h1 class="project-title">Vintro</h1>
@@ -39,8 +53,8 @@
 
     <section class="project-brief fade-in">
       <div class="brief-left">
-        <p class="section-label">about the project</p>
-        <p class="brief-text">Vintro is a Kathmandu-based streetwear brand with a minimalistic bold aesthetic. Their Instagram presence is strong but they lacked a website that matched their visual identity. This is an unsolicited concept redesign exploring what that could look like.</p>
+        <p class="section-label">About the project</p>
+        <p class="brief-text">Vintro is a Kathmandu-based digital marketing agency offering a modern approach to brand building and online presence. Their SNS presence is strong but they lacked a website that matched their visual identity. This is an unsolicited concept design exploring what that could look like.</p>
       </div>
       <div class="brief-right">
         <div class="brief-detail">
@@ -49,7 +63,7 @@
         </div>
         <div class="brief-detail">
           <span class="detail-label">Type</span>
-          <span class="detail-value">Concept Redesign</span>
+          <span class="detail-value">Concept Design</span>
         </div>
         <div class="brief-detail">
           <span class="detail-label">Tools</span>
@@ -66,32 +80,52 @@
       <p class="section-label">design</p>
       <div class="images-stack">
         <div class="image-block">
-          <img src="../Work/Vintro Website Design.png" alt="Vintro - Hero & Latest Drops">
+          <img src="../Work/Vintro Website Design.png" alt="Vintro - Website Design">
         </div>
       </div>
     </section>
 
     <section class="next-project fade-in">
-      <p class="section-label">next</p>
-      <a href="../index.html#work" class="next-link">← Back to all work</a>
+      <a href="../index.html#work" class="next-link">← BACK TO ALL WORK</a>
     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="footer-left">
-        <img class="footer-logo" src="../pictures/AERIE Logo 2.png" alt="Aerie Studio">
-        <p class="copyright">&copy; 2026 AERIE STUDIO. All rights reserved.</p>
+      <div class="footer-content">
+        <div class="footer-section footer-brand">
+          <a href="#home" class="footer-logo-link">
+            <img src="../pictures/AERIE Favicon 2.png" alt="Aerie Studio" class="footer-logo-icon">
+          </a>
+          <p>A design made with intention. Based in Nepal.</p>
+        </div>
+
+          <div class="footer-links">
+            <div class="footer-section">
+              <p class="footer-label">Navigation</p>
+              <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <p class="footer-label">Connect</p>
+              <ul>
+                <li><a href="https://www.instagram.com/aeriestudio_/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/avipsa-parajuli-a31052308/" target="_blank">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
       </div>
-      <div class="footer-right">
-        <a href="https://www.instagram.com/aeriestudio_/" target="_blank">
-          <img class="social-icon" src="../pictures/icons/ig.png" alt="Instagram">
-        </a>
-        <a href="https://www.linkedin.com/in/avipsa-parajuli-a31052308/" target="_blank">
-          <img class="social-icon" src="../pictures/icons/linkedin.png" alt="LinkedIn">
-        </a>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 AERIE STUDIO. ALL RIGHTS RESERVED.</p>
       </div>
     </footer>
 
-    <script src="../script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
